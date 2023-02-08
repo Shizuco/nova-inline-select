@@ -1,5 +1,5 @@
 {
-    "name": "shizuco/nova-inline-select",
+    "name": "shizuco/laravel-nova-inline-select",
     "description": "An inline select field for Laravel Nova apps.",
     "keywords": [
         "laravel",
@@ -11,7 +11,7 @@
             "url": "https://nova.laravel.com"
         }
     ],
-    "homepage": "https://github.com/kirschbaum-development/nova-inline-select",
+    "homepage": "https://github.com/shizuco/nova-inline-select",
     "license": "MIT",
     "authors": [
         {
@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "KirschbaumDevelopment\\Nova\\": "src/"
+            "Shizuco\\Nova\\": "src/"
         }
     },
     "autoload-dev": {
@@ -41,7 +41,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KirschbaumDevelopment\\Nova\\InlineSelectFieldServiceProvider"
+                "Shizuco\\Nova\\InlineSelectFieldServiceProvider"
             ]
         }
     },
