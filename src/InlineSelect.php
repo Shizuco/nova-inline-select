@@ -1,6 +1,6 @@
 <?php
 
-namespace KirschbaumDevelopment\Nova;
+namespace Shizuco\Nova;
 
 use Laravel\Nova\Fields\Select;
 
